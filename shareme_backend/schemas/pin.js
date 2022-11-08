@@ -19,9 +19,14 @@ export default {
       type: 'url'
     },
     {
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+    },
+    {
       name: 'image',
       title: 'Image',
-      type: 'string',
+      type: 'image',
       options: {
         hotspot: true
       }
